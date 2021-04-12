@@ -1,26 +1,67 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+    <!-- hero -->
+    <hero />
+    <!-- card -->
+    <div class="columns px-4 py-2 my-6 has-background-white-bis">
+        <div class="column">
+            <card head="CHAT" logo="carbon:closed-caption-alt" />
+        </div>
+        <div class="column">
+            <card head="PROTON" logo="carbon:cloud-satellite" />
+        </div>
+        <div class="column">
+            <card head="DESIGN" logo="carbon:dicom-overlay" />
+        </div>
+    </div>
+    <!-- form -->
+    <div class="section is-max-width is-fullhd">
+        
+        <div class="columns">
+            <div class="column is-full-mobile mx-3">
+                <!-- contact -->
+                <contact/>
+            </div>
+            <div class="column is-full-mobile px-3 has-text-centered-mobile">
+                <!-- input -->
+                <forms />
+            </div>
+        </div>
+    </div>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import hero from './components/hero.vue'
+import card from './components/card.vue'
+import contact from './components/contact.vue'
+import forms from './components/forms.vue'
+// import cards from './components/HelloWorld.vue'
+// import email from './components/HelloWorld.vue'
+// import form from './components/HelloWorld.vue'
+// import footer from './components/HelloWorld.vue'
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+    name: 'App',
+    components: {
+        hero,
+        card,
+        contact,
+        forms
+    },
+    data() {
+        return {
+            
+        }
+    }
 }
 </script>
-
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.title,.subtitle{
+    font-family: Lato;
+    /*opacity: ;*/
+}
+.content{
+    font-family: Raleway;
+    font-weight: bolder;
+    opacity: .8;
 }
 </style>
