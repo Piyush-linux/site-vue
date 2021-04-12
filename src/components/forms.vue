@@ -38,7 +38,7 @@ export default {
 	box-shadow: none;
 	font-family: raleway;
 	font-weight: bold;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 	/*border-radius: 0;*/
 }
 #form .textarea{

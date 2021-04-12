@@ -18,9 +18,11 @@ export default {
 
 .box .iconify{
 	font-size: 2.3rem;
+    color:#69c1a3;
 }
 .box .title{
-
+    color:#323030 ;
+    opacity: .9;
     font-size: 1.5rem;
 }
 

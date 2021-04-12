@@ -4,7 +4,7 @@
             <div class="cont">
                 <img src="../assets/logo.png" alt="">
                 <p class="title is-1">
-                    Welcome Template Stock
+                    Welcome <b> Template Stock</b>
                 </p>
                 <p class="content px-6">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
@@ -44,6 +44,11 @@ export default {
 
 .hero .hero-body .title {
     color: white;
+    /*font-weight: lighter;*/
+}
+.hero b{
+    font-weight: bolder;
+    color:#69c1a3;
 }
 
 .hero .hero-body .content {

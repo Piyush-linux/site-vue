@@ -3,7 +3,9 @@
     <!-- hero -->
     <hero />
     <!-- card -->
-    <div class="columns px-4 py-2 my-6 has-background-white-bis">
+    <section class="section">
+        
+    <div class="columns py-2 my-6 has-background-white-bis">
         <div class="column">
             <card head="CHAT" logo="carbon:closed-caption-alt" />
         </div>
@@ -14,6 +16,7 @@
             <card head="DESIGN" logo="carbon:dicom-overlay" />
         </div>
     </div>
+    </section>
     <!-- form -->
     <div class="section is-max-width is-fullhd">
         
@@ -55,6 +58,10 @@ export default {
 }
 </script>
 <style>
+body{
+    width: 100vw;
+    height: auto;
+}
 .title,.subtitle{
     font-family: Lato;
     /*opacity: ;*/

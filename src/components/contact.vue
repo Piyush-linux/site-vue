@@ -6,7 +6,7 @@
             <span class="icon has-text-success is-medium">
                 <span class="iconify" data-icon="la:location-arrow" data-inline="false" style="font-size: 1.7rem;"></span>
             </span>
-            <span> E 71 8th Ave, New York NY 21001, US</span>
+            <span> E 71 8th Ave, US</span>
         </div>
        
         <div class="icon-text">
